@@ -18,7 +18,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://heroku_3fnph83d:3mg29gsc7ot95c6tff246c02fk@ds347367.mlab.com:47367/heroku_3fnph83d";
 //change to deployed database
 
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
