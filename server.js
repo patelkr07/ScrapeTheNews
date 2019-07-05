@@ -4,10 +4,6 @@ var mongoose = require("mongoose");
 var axios = require("axios");
 var cheerio = require("cheerio");
 
-var Article = require("./models/Article");
-
-var Note = require("./models/Note")
-
 var db = require("./models");
 
 var PORT = 3000;
